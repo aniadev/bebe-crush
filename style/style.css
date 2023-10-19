@@ -33,6 +33,12 @@ body {
     colorChange 3s infinite alternate,
     pop 0.5s linear infinite;
 }
+#music {
+  position: absolute;
+  bottom: 60px;
+  left: 24px;
+  opacity: 0.3;
+}
 
 @keyframes bounce {
   0%,

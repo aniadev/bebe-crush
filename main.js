@@ -43,6 +43,7 @@ function toggleShape() {
 
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector(".h-container");
+  const audio = document.querySelector("#music");
 
   for (let i = 0; i < 50; i++) {
     const heart = document.createElement("div");
@@ -56,5 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const shape = document.getElementById("shape");
   shape.addEventListener("click", () => {
     toggleShape();
+    audio.play();
   });
 });
